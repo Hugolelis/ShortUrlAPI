@@ -4,13 +4,13 @@
 
 ---
 
-## Sobre
+## About
 
-Esta é uma API RESTful projetada para gerenciar encurtamento de URLs, redirecionamento e análise de links.
+This is a RESTful API designed to handle URL shortening, redirection, and link analytics.
 
 ---
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - Node.js & Fastify  
 - TypeScript  
@@ -18,7 +18,7 @@ Esta é uma API RESTful projetada para gerenciar encurtamento de URLs, redirecio
 
 ---
 
-## Estrutura do Projeto
+## Project Structure
 
 ```bash
 📦 backend
@@ -35,34 +35,34 @@ Esta é uma API RESTful projetada para gerenciar encurtamento de URLs, redirecio
 ```
 ---
 
-## Principais Endpoints e Funcionalidades
+## Key Endpoints 
 
 ### UrlController
 
-| Método | Rota                 | Descrição                                             |
+| Method | Route                | Description                                           |
 | ------ | -------------------- | ----------------------------------------------------- |
-| POST   | /api/url/shortUrl    | Gera uma nova URL encurtada                           |
-| GET    | /api/url/getAllUrls  | Retorna todas as URLs encurtadas                      |
-| GET    | /api/url/\:shortCode | Redireciona para a URL original baseado no short code |
+| POST   | /api/url/shortUrl    | Generates a new shortened URL                         |
+| GET    | /api/url/getAllUrls  | Retrieves all shortened URLs                          |
+| GET    | /api/url/\:shortCode | Redirects to the original URL based on the short code |
 
 ---
 
-## 🖥Rodando o Projeto
+## Running the Project
 
-### 1. Clonar o Repositório
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Hugolelis/ShortUrlAPI.git
 cd ShortUrlAPI
 ```
 
-### 2. Instalar Dependências
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Configurar Variáveis de Ambiente (.env)
+### 3. Configure Environment Variables (.env) (example)
 
 ```bash
 DB_URI=mongodb://localhost:27017/shortUrlAPI
@@ -70,7 +70,7 @@ PORT=3000
 HOST=0.0.0.0
 ```
 
-### ▶4. Iniciar o Servidor
+### 4. Start the Server
 
 ```bash
 npm start
