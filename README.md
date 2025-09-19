@@ -10,7 +10,7 @@ Esta é uma API RESTful projetada para gerenciar encurtamento de URLs, redirecio
 
 ---
 
-## 🧰ecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Node.js & Fastify  
 - TypeScript  
