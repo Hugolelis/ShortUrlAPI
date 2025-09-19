@@ -1,24 +1,24 @@
-# 🚀 URL Shortener API
+# URL Shortener API
 
 ![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg) ![Status](https://img.shields.io/badge/status-complete-brightgreen.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ---
 
-## 📚 Sobre
+## Sobre
 
 Esta é uma API RESTful projetada para gerenciar encurtamento de URLs, redirecionamento e análise de links.
 
 ---
 
-## 🧰 Tecnologias Utilizadas
+## 🧰ecnologias Utilizadas
 
-- ⚙️ Node.js & Fastify  
-- 📘 TypeScript  
-- 🗃️ MongoDB  
+- Node.js & Fastify  
+- TypeScript  
+- MongoDB  
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```bash
 📦 backend
@@ -35,9 +35,9 @@ Esta é uma API RESTful projetada para gerenciar encurtamento de URLs, redirecio
 ```
 ---
 
-## 📬 Principais Endpoints e Funcionalidades
+## Principais Endpoints e Funcionalidades
 
-### 🔗 UrlController
+### UrlController
 
 | Método | Rota                 | Descrição                                             |
 | ------ | -------------------- | ----------------------------------------------------- |
@@ -47,22 +47,22 @@ Esta é uma API RESTful projetada para gerenciar encurtamento de URLs, redirecio
 
 ---
 
-## 🖥️ Rodando o Projeto
+## 🖥Rodando o Projeto
 
-### 🔧 1. Clonar o Repositório
+### 1. Clonar o Repositório
 
 ```bash
 git clone https://github.com/Hugolelis/ShortUrlAPI.git
 cd ShortUrlAPI
 ```
 
-### 📦 2. Instalar Dependências
+### 2. Instalar Dependências
 
 ```bash
 npm install
 ```
 
-### ⚙️ 3. Configurar Variáveis de Ambiente (.env)
+### 3. Configurar Variáveis de Ambiente (.env)
 
 ```bash
 DB_URI=mongodb://localhost:27017/shortUrlAPI
@@ -70,7 +70,7 @@ PORT=3000
 HOST=0.0.0.0
 ```
 
-### ▶️ 4. Iniciar o Servidor
+### ▶4. Iniciar o Servidor
 
 ```bash
 npm start
